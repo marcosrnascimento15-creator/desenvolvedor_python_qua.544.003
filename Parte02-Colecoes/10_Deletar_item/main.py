@@ -15,7 +15,7 @@ if nome in nomes:
     indice = nomes.index(nome)
 
     # apaga item da lista
-    del(nomes{indice})
+    del(nomes[indice])
 
     # exibe a nova lista sem o item deletado
     for nome in nomes:
