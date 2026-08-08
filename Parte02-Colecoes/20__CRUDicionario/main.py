@@ -45,12 +45,31 @@ while True:
             os.system("cls" if os.name == "nt" else "clear")
 
         case "3":
-            #TODO: fazer alterar usuario
-            pass
+            nome = input('Informe o nome ser pesquisado.').strip().title()
+            for usuario in usuarios:
+                if nome in usuario['nome']:
+                    # 2º menu
+                    print("nome")
+                    print("CPF")
+                    print("email")
+                    print("Cancelar")
+                    alterar = input("Qual chave deseja alterar?").strip().lower()
+                    if alterar in usuario:
+                        usuario[alterar] = input("Informe um novo valor").strip()
+                        print("Alterado com sucesso")
+            else:
+                print("Usuario não encontrado")
+            continue
 
         case "4":
-            #TODO: Excluir usuario
-            pass
+            nome = input("Informe o nome a ser deletado: ").strip().title()
+            for usuario in usuarios:
+                if nome in usuario['nome']:
+                    usuarios.remove(usuario)
+                    print("Usuario deletado com sucesso")
+            else:
+                print("Usuario não encontrado.")
+            continue
 
         case "5":
             print("Saindo do programa...")
