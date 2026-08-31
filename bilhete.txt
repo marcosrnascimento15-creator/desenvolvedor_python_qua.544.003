@@ -1,0 +1,9 @@
+====================================
+          BILHETE DE CINEMA         
+====================================
+Cliente: 123
+Idade: 123 anos
+Sala: 5
+Filme: A vingança do Frango Assado
+Classificação: 18 anos
+====================================
