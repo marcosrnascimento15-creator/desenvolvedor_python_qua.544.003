@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/estilo.css') }}">
+    <link rel="font" type="font/ttf" href="{{ url_for('static', filename='css/fonts/GODOFWAR.TTF') }}"/>
+    <title><<<Estáticos>>></title>
+</head>
+<body>
+    <h1>Estáticos</h1>
+    <h2>Bem-vindo à página de conteúdo estático Curso de Python!</h2>
+    <marquee behavior="alternate" direction="left" scrollamount="10">
+    <img src="{{ url_for('static', filename='img/01.jpeg') }}" alt="curso_python" width="500" height="300">
+    </marquee>
+
+</body>
+</html>

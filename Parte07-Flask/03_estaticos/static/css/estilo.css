@@ -1,0 +1,27 @@
+body {
+    font-family: 'GODOFWAR.TTF';
+    background-color: #e7e1eb;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #75d375;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 80px;
+}
+
+h2 {
+    color: #800404;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
